@@ -5,8 +5,9 @@ hobby = input("Enter your hobby: ")
 print(f" your nickname is {nickname} and your hobby is {hobby}!")
 # \n to print the results on a new line
 character = input("Enter a character: \n Steps")
-# predefined rows and columns
+# predefined rows
 rows = 6
+# use a for loop to iterate the pattern
 for i in range(rows):
   for j in range(i):
     print(character,end="")
@@ -34,3 +35,7 @@ print("Result: " + str(result))
 average_age = int(result)/2
 # typecast the ages and print in terminal 
 print("Average age: " + str(average_age))
+
+# running the app.py
+# cd to project directory
+# run python app.py from terminal
